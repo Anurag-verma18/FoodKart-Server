@@ -1,0 +1,1 @@
+## A simple Express proxy server that fetches data from a third-party (Swiggy) API and exposes it to a client (FoodKart) app.
