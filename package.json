@@ -1,0 +1,29 @@
+{
+  "name": "proxy-server",
+  "version": "1.0.0",
+  "description": "A simple Express proxy server that fetches data from a third-party (Swiggy) API and exposes it to a client (FoodKart) web-app.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \\\"Error: no test specified\\\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Anurag-verma18/FoodKart-Server.git"
+  },
+  "keywords": [
+    "express",
+    "server"
+  ],
+  "author": "Anurag Verma",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Anurag-verma18/FoodKart-Server/issues"
+  },
+  "homepage": "https://github.com/Anurag-verma18/FoodKart-Server#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "cross-fetch": "^4.0.0",
+    "express": "^4.19.2"
+  }
+}
