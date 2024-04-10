@@ -4,7 +4,7 @@
   "description": "A simple Express proxy server that fetches data from a third-party (Swiggy) API and exposes it to a client (FoodKart) web-app.",
   "main": "server.js",
   "scripts": {
-    "test": "echo \\\"Error: no test specified\\\" && exit 1",
+    "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
   },
   "repository": {
